@@ -1,0 +1,1 @@
+## please give permission using chmod +x name.sh
