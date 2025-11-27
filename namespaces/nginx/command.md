@@ -10,4 +10,5 @@ kubectl create -f namespace.yml --save-config
 kubectl apply -f pod.yml
 kubectl exec -it pod/nginx-pod -n nginx -- bash
 kubectl scale deployment/nginx-deployment --replicas=1 -n nginx
+kubectl set image deployment/nginx-deployment -n nginx nginx=nginx:1.27.3
 ```
